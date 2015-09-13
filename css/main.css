@@ -1,1 +1,37 @@
-main.css
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+li{
+	list-style: none;
+	text-decoration: none;
+	width:25%;
+	float:left;
+	display: inline-block;
+}
+
+h2.Seven-Wonders{
+	clear:both;
+}
+
+dt{
+	float:left;
+}
+
+nav{
+	display: inline;
+	float:left;
+}
+
+img{
+	width: 80%;
+	padding: 10%;
+}
+
+html{
+	margin:5%;
+}
