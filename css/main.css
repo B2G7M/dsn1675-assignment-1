@@ -1,36 +1,119 @@
+/*----------- Whole webite modoifiers -------------*/
+body{
+	margin: 0;
+}
+
+html{
+	padding-top: 2em;
+}
+
+div.whole-website{
+	margin: 10px;
+}
+/*------------------ W W M s end ------------------*/
+
+/*-------------------- Header ---------------------*/
+header{
+	background-color: #99CCFF
+}
+
 h1{
-	text-align: center;
-}
-
-h2{
-	text-align: center;
-}
-
-li{
-	list-style: none;
-	text-decoration: none;
-	width:25%;
-	float:left;
+	margin: 0;
 	display: inline-block;
+	font-size: 2rem;
+	font-weight: bold;
+	background-color: ;
+}
+
+img.logo{
+	float: left;
+	width: 10%;
+	display: inline-block;
+}
+
+a.button{
+	float: right;
+	display: inline-block;
+	padding-top: 0.5rem;
+}
+/*------------------ Header end ------------------*/
+
+
+/*------------ Introduction Art and Text ---------*/
+img.panorama{
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 h2.Seven-Wonders{
 	clear:both;
 }
 
+div.wondersandtext{
+	position: absolute;
+	top: 120px;
+	color: #fff;
+}
+
+img.wonders{
+	width: 100%;
+	position: relative;
+
+}
+/*---------- Introduction Art and Text end -------*/
+
+h2.sws{
+	text-align: center;
+	background-color: #6699FF;
+}
+
+h3{
+	background-color: #99CCFF;
+	padding: 10px; 
+	background-color: none;
+}
+
+li{
+	list-style: none;
+	text-decoration: none;
+	float:left;
+	padding: 5px;
+	display: inline-block;
+	text-align: center;
+}
+
+
 dt{
 	float:left;
 }
 
-nav{
-	display: inline;
-	float:left;
+{
+	text-align: center;
 }
 
 img{
-	width: 90%;
+	width: 100%;
 }
 
-html{
-	padding: 1em;
+header{
+	background-color: #fff;
+	clear: both;
+	padding: 0;
+	width: 100%;
+}
+
+ol{
+	clear: both;
+}
+
+nav{
+	
+}
+
+footer{
+	background-color: #FFFFCC;
+	clear: both;
+	margin: 0;
+	padding: 10px;
 }
