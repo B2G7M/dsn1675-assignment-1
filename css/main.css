@@ -148,7 +148,7 @@ main{
 
 	}
 
-	.hero-banner-h2{
+	/*.hero-banner-h2{
 		width:70%;
 		float: right;
 	}
@@ -156,7 +156,12 @@ main{
 	.panorama p{
 		width: 70%
 		float:right;
-	}
+	}*/
+
+	.wonders div{
+	float:right;
+	width:70%;
+}
 
 }
 /*------------------ Header end ------------------*/
