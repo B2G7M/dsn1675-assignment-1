@@ -107,6 +107,15 @@ a {
   text-decoration: none;
  }
 
+.buttons a{
+	width: 100%;
+}
+
+.left span{
+	width:30%;
+	float:left;
+}
+
 nav li{
   width: 25%;
   background-color: #0099FF; 
@@ -135,11 +144,19 @@ img.maroti{
 
 dt{
 	float:left;
-	display: inline-block;
 }
 
 img{
 	width: 100%;
+}
+
+.schedule li{
+	list-style: none;
+	margin-bottom: 1rem;
+}
+
+.schedule ul{
+	padding: 0;
 }
 /*--------------- Main Website End ----------------*/
 
@@ -151,8 +168,7 @@ footer{
 	padding: 10px;
 }
 
-.footer li{
-	background-color: none;
+nav{
 	display: block;
 }
 /*------------------ Footer End -------------------*/
