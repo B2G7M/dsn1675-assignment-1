@@ -1,6 +1,25 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+	-moz-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	text-size-adjust:100%;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
 /*----------- Whole webite modoifiers -------------*/
 body{
 	margin: 0;
+	font-family: sans-serif;
 }
 
 html{
@@ -14,37 +33,133 @@ main{
 /*------------------ W W M s end ------------------*/
 
 /*-------------------- Header ---------------------*/
-header{
+.masthead {
 	background-color: #99CCFF;
+	padding-top: 1em;
+}
+
+.title {
+	font-size: 1.2rem;
 	text-align: center;
-	display:block;
-	padding: .25em;
 }
 
-h1{
+.logo{
+	border-style: none;
+	width: 70px;
+	margin: 0 auto;
+	display: block;
+}
+
+.nav {
 	margin: 0;
-	display: inline;
-	font-size: 1.75rem;
-	overflow: hidden;
+	padding: 0;
+	list-style-type: none;
+	background-color: green;
 }
 
-img.logo{
-	float: left;
-	width: 10%;
-	border:none;
-	display: inline-block;
+.nav a{
+	display: block;
+	padding: .5em 1em;
+	color: #fff;
+	text-decoration: none;
 }
 
-a.button{
-	float: right;
+.buy {
 	color: #000;
 	padding: 0.25rem;
-	display: inline;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1em;
 	background-color: #0099FF; 
-	border-radius: 8px;
+	width: 4em;
+	text-align: center;
+}
+
+@media only screen and (min-width: 35em){
+
+	.nav li{
+		display: inline-block;
+	}
+
+	.nav{
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width: 45em){
+
+	.logo {
+		display: inline-block;
+		width: 100px;
+		margin: 0 1em;
+		vertical-align: middle;
+	}
+
+	.title {
+		display: inline-block;
+		vertical-align: middle;
+		font-style: 2rem;
+	}
+
+	.nav {
+		margin-top: 1em;
+	}
+
+	.buy {
+		display: inline-block;
+		vertical-align: middle;
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (min-width: 50em){
+
+	.masthead {
+		float:left;
+		width: 30%
+	}
+
+	main {
+		float: right;
+		width: 70%
+	}
+
+	.nav li{
+		display: block;
+	}
+
+	.logo {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.title {
+		display: block;
+	}
+
+	.nav {
+		text-align: left;
+	}
+
+	.buy {
+		display: block;
+		vertical-align: middle;
+		margin-bottom: 0;
+
+	}
+
+	.hero-banner-h2{
+		width:70%;
+		float: right;
+	}
+
+	.panorama p{
+		width: 70%
+		float:right;
+	}
+
 }
 /*------------------ Header end ------------------*/
-
 
 /*------------ Introduction Art and Text ---------*/
 img.panorama{
@@ -78,7 +193,6 @@ img.wonders{
 .wonders div{
 	background: url("../images/wonders.jpg") no-repeat center / cover;
 	padding-top: 36.61%;
-	
 	text-align: center;
 	color: #fff;
 	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
@@ -99,10 +213,6 @@ h3{
 	border-radius: 10px;
 }
 
-nav li {
-   float: left;
-   display: inline-block;}
-
 a {
   text-decoration: none;
  }
@@ -117,18 +227,21 @@ a {
 	float:left;
 }
 
-nav li{
+/*nav li{
   width: 25%;
   background-color: #0099FF; 
   text-align: center;
   padding-top: 1rem;
-  height: 3rem; }
+  height: 3rem;
+  float: left;
+  display: inline-block; 
+}
 
 nav ul{
   overflow: hidden;
   margin: auto;
   width: 100%;
-  padding: 0;}
+  padding: 0;}*/
 
 a:hover{
 	color:#cc3865;
