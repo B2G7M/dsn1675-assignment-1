@@ -94,7 +94,7 @@ h3{
 	background-color: #99CCFF;
 	padding: 10px; 
 	background-color: none;
-	margin: 0;
+	margin: 1em 0em 0em 0em;
 	display: block;
 	border-radius: 10px;
 }
@@ -109,6 +109,7 @@ a {
 
 .buttons a{
 	width: 100%;
+	text-align: center;
 }
 
 .left span{
@@ -136,7 +137,6 @@ a:hover{
 img.maroti{
 	margin-top: 1rem;
 }
-
 
 .panorama p{
 	padding:0px  10px 10px 10px;
@@ -166,6 +166,17 @@ footer{
 	clear: both;
 	margin: 0;
 	padding: 10px;
+}
+
+.footer li{
+	background-color: #FFFFCC;
+	width: 100%;
+	text-align: left;
+	padding: 0rem;
+}
+
+.footer ol{
+		display: block;
 }
 
 nav{
