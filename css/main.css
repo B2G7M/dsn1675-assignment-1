@@ -135,6 +135,7 @@ main {
 		vertical-align: middle;
 		margin-bottom: 0;
 	}
+
 }
 
 @media only screen and (min-width: 50em){
@@ -149,7 +150,7 @@ main {
 		width: 70%
 	}
 
-	.nav li{
+	.nav li {
 		display: block;
 	}
 
@@ -173,20 +174,10 @@ main {
 
 	}
 
-	/*.hero-banner-h2{
-		width:70%;
-		float: right;
-	}
-
-	.panorama p{
-		width: 70%
-		float:right;
-	}*/
-
-	.wonders div{
+	.wonders div {
 	float:right;
 	width:70%;
-}
+	}
 
 }
 /*------------------ Header end ------------------*/
@@ -267,7 +258,8 @@ nav ul{
 
 a:hover{
 	color:#cc3865;
-	background-color: #fff;}
+	background-color: #fff;
+}
 
 img.maroti{
 	margin-top: 1rem;
