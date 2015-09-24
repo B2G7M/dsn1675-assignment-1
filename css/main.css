@@ -22,14 +22,39 @@ body{
 	font-family: sans-serif;
 }
 
+body a{
+	text-decoration: none;
+}
+
 html{
 	font-size: 100%;
 	line-height: 1.3;
 }
 
-main{
+main {
 	margin: 10px;
 }
+
+.learn {
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+ }
+
+ .price {
+ 	width: 100%;
+ 	text-align: center;
+ }
+
+ .price a {
+ 	padding: 0 1em;
+ 	background-color: #33CCFF;
+ }
+
+ .price a:nth-child(2) {
+ 	color: red;
+ }
+
 /*------------------ W W M s end ------------------*/
 
 /*-------------------- Header ---------------------*/
@@ -195,6 +220,7 @@ img.wonders{
 /*--------- Introduction Art and Text End --------*/
 
 /*----------------- Main Website -----------------*/
+
 .wonders div{
 	background: url("../images/wonders.jpg") no-repeat center / cover;
 	padding-top: 36.61%;
@@ -216,15 +242,6 @@ h3{
 	margin: 1em 0em 0em 0em;
 	display: block;
 	border-radius: 10px;
-}
-
-a {
-  text-decoration: none;
- }
-
-.buttons a{
-	width: 100%;
-	text-align: center;
 }
 
 .left span{
