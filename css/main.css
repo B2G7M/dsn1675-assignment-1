@@ -142,12 +142,12 @@ main {
 
 	.masthead {
 		float:left;
-		width: 30%
+		width: 30%;
 	}
 
 	main {
 		float: right;
-		width: 70%
+		width: 70%;
 	}
 
 	.nav li {
@@ -179,6 +179,20 @@ main {
 	width:70%;
 	}
 
+	.wrapper {
+		max-width: 30em; 
+		margin: 0 auto;
+	}
+
+}
+
+
+@media only screen and (min-width: 80em){
+	
+	.wonders-of-the-world {
+			width: 33%;
+			float:left;
+		}
 }
 /*------------------ Header end ------------------*/
 
@@ -187,6 +201,7 @@ img.panorama{
   padding: 0;
   margin: 0;
   width: 100%;
+
 }
 
 h2.Seven-Wonders{
@@ -239,22 +254,6 @@ h3{
 	width:30%;
 	float:left;
 }
-
-/*nav li{
-  width: 25%;
-  background-color: #0099FF; 
-  text-align: center;
-  padding-top: 1rem;
-  height: 3rem;
-  float: left;
-  display: inline-block; 
-}
-
-nav ul{
-  overflow: hidden;
-  margin: auto;
-  width: 100%;
-  padding: 0;}*/
 
 a:hover{
 	color:#cc3865;
@@ -310,3 +309,30 @@ nav{
 	display: block;
 }
 /*------------------ Footer End -------------------*/
+
+
+/*------------------ Print -------------------*/
+
+@media print {
+
+	nav {
+		display: none;
+	}
+
+	.wonders-of-the-world {
+		width: 33%;
+		float:left;
+	}
+
+	main a::after {
+		content: " ("attr(href) ")";
+		color: #999;
+	}
+
+	.wonders {
+		display: none;
+		page-break-after: always;
+	}
+
+}
+/*------------------ Print End -------------------*/
